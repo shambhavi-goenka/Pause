@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7467AC172A82BF36003EF65B /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467AC162A82BF36003EF65B /* Mood.swift */; };
 		7474EF342A4FFF7900D8E431 /* DespressoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7474EF332A4FFF7900D8E431 /* DespressoApp.swift */; };
 		7474EF362A4FFF7900D8E431 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7474EF352A4FFF7900D8E431 /* ContentView.swift */; };
 		7474EF382A4FFF7B00D8E431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7474EF372A4FFF7B00D8E431 /* Assets.xcassets */; };
@@ -14,6 +15,10 @@
 		7474EF452A4FFF7B00D8E431 /* DespressoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7474EF442A4FFF7B00D8E431 /* DespressoTests.swift */; };
 		7474EF4F2A4FFF7B00D8E431 /* DespressoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7474EF4E2A4FFF7B00D8E431 /* DespressoUITests.swift */; };
 		7474EF512A4FFF7B00D8E431 /* DespressoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7474EF502A4FFF7B00D8E431 /* DespressoUITestsLaunchTests.swift */; };
+		7474EF632A50032B00D8E431 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7474EF622A50032B00D8E431 /* HomeView.swift */; };
+		7474EF672A50038C00D8E431 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7474EF662A50038C00D8E431 /* NoteView.swift */; };
+		7474EF6B2A5003A700D8E431 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7474EF6A2A5003A700D8E431 /* ProfileView.swift */; };
+		7474EF6E2A53E1C800D8E431 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 7474EF6D2A53E1C800D8E431 /* SwiftUICharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7467AC162A82BF36003EF65B /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
 		7474EF302A4FFF7900D8E431 /* Despresso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Despresso.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7474EF332A4FFF7900D8E431 /* DespressoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DespressoApp.swift; sourceTree = "<group>"; };
 		7474EF352A4FFF7900D8E431 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +50,9 @@
 		7474EF4A2A4FFF7B00D8E431 /* DespressoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DespressoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7474EF4E2A4FFF7B00D8E431 /* DespressoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DespressoUITests.swift; sourceTree = "<group>"; };
 		7474EF502A4FFF7B00D8E431 /* DespressoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DespressoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7474EF622A50032B00D8E431 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7474EF662A50038C00D8E431 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		7474EF6A2A5003A700D8E431 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7474EF6E2A53E1C800D8E431 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +106,7 @@
 			children = (
 				7474EF332A4FFF7900D8E431 /* DespressoApp.swift */,
 				7474EF352A4FFF7900D8E431 /* ContentView.swift */,
+				7474EF612A50029F00D8E431 /* Navbar */,
 				7474EF372A4FFF7B00D8E431 /* Assets.xcassets */,
 				7474EF392A4FFF7B00D8E431 /* Preview Content */,
 			);
@@ -127,6 +138,17 @@
 			path = DespressoUITests;
 			sourceTree = "<group>";
 		};
+		7474EF612A50029F00D8E431 /* Navbar */ = {
+			isa = PBXGroup;
+			children = (
+				7474EF622A50032B00D8E431 /* HomeView.swift */,
+				7467AC162A82BF36003EF65B /* Mood.swift */,
+				7474EF662A50038C00D8E431 /* NoteView.swift */,
+				7474EF6A2A5003A700D8E431 /* ProfileView.swift */,
+			);
+			name = Navbar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +165,9 @@
 			dependencies = (
 			);
 			name = Despresso;
+			packageProductDependencies = (
+				7474EF6D2A53E1C800D8E431 /* SwiftUICharts */,
+			);
 			productName = Despresso;
 			productReference = 7474EF302A4FFF7900D8E431 /* Despresso.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +240,9 @@
 				Base,
 			);
 			mainGroup = 7474EF272A4FFF7900D8E431;
+			packageReferences = (
+				7474EF6C2A53E1C800D8E431 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 7474EF312A4FFF7900D8E431 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7474EF632A50032B00D8E431 /* HomeView.swift in Sources */,
+				7474EF672A50038C00D8E431 /* NoteView.swift in Sources */,
+				7467AC172A82BF36003EF65B /* Mood.swift in Sources */,
 				7474EF362A4FFF7900D8E431 /* ContentView.swift in Sources */,
+				7474EF6B2A5003A700D8E431 /* ProfileView.swift in Sources */,
 				7474EF342A4FFF7900D8E431 /* DespressoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,6 +609,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7474EF6C2A53E1C800D8E431 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7474EF6D2A53E1C800D8E431 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7474EF6C2A53E1C800D8E431 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7474EF282A4FFF7900D8E431 /* Project object */;
 }
